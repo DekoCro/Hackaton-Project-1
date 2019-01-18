@@ -7850,4 +7850,187 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+body {
+  font-family: "Abel", sans-serif; }
+  @media all and (min-width: 577px) {
+    body {
+      min-width: 577px; } }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f4db78; }
+  @media all and (min-width: 577px) {
+    nav {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 1% 15%; } }
+  nav svg {
+    width: 7em;
+    height: 7em;
+    margin-top: 1em; }
+  nav ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-left: 0; }
+    @media all and (min-width: 577px) {
+      nav ul {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        width: 30%; } }
+    nav ul li {
+      padding-top: .5em; }
+      nav ul li a {
+        color: black; }
+      nav ul li .current {
+        color: slategray; }
+
+main {
+  margin: 5%;
+  position: relative; }
+  @media all and (min-width: 577px) {
+    main {
+      margin: 0 15%; } }
+  main h1, main h2 {
+    width: 70%;
+    line-height: 1.6em;
+    letter-spacing: 3px; }
+    @media all and (min-width: 577px) {
+      main h1, main h2 {
+        width: 90%; } }
+  main img {
+    width: 100%; }
+  @media all and (min-width: 577px) {
+    main aside {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 80%; } }
+  main aside h3, main aside p {
+    margin-top: 1em; }
+  main .empty {
+    height: 10vh; }
+    @media all and (min-width: 577px) {
+      main .empty {
+        height: 60vh; } }
+    @media all and (min-width: 1440px) {
+      main .empty {
+        height: 65vh; } }
+  main iframe {
+    position: absolute;
+    bottom: -4em;
+    width: 100%; }
+    @media all and (min-width: 577px) {
+      main iframe {
+        height: 70vh;
+        bottom: -4em; } }
+
+footer {
+  background-color: #2B404F;
+  height: 30vh;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  footer ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: .5em;
+    padding-left: 0;
+    width: 100%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    @media all and (min-width: 577px) {
+      footer ul {
+        width: 35%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 5em; } }
+    @media all and (min-width: 577px) {
+      footer ul li {
+        margin: 0 2em; } }
+    footer ul li a {
+      text-decoration: underline; }
+    footer ul li .current {
+      color: lightgray;
+      text-decoration: none; }
+  footer strong {
+    margin-top: 1em; }
+    @media all and (min-width: 577px) {
+      footer strong {
+        margin-top: 3em; } }
+  footer p {
+    margin-top: 2em; }
+    @media all and (min-width: 577px) {
+      footer p {
+        margin-top: 0; } }
+    footer p span {
+      color: dodgerblue;
+      text-decoration: underline; }
+
+/*-----------coffe style---------*/
+.coffee p span {
+  color: dodgerblue;
+  text-decoration: underline; }
+
+.coffee section div {
+  background-color: whitesmoke; }
+  .coffee section div img {
+    padding: 0; }
+  .coffee section div h2 {
+    font-size: 1.2em; }
+    @media all and (min-width: 577px) {
+      .coffee section div h2 {
+        font-size: 1.5em; } }
+  .coffee section div h5 {
+    font-size: 1.2em; }
+
+/*--------------story section---------*/
+.story {
+  color: white;
+  background-color: #2B404F; }
+  .story div {
+    padding: 1% 15%; }
+    .story div h1 {
+      font-size: 2.5em;
+      margin-bottom: 2em; }
+
 /*# sourceMappingURL=index.css.map */

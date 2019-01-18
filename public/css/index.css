@@ -7867,7 +7867,7 @@ nav {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: whitesmoke; }
+  background-color: #f4db78; }
   @media all and (min-width: 577px) {
     nav {
       -webkit-box-orient: horizontal;
@@ -7899,7 +7899,7 @@ nav {
     nav ul li {
       padding-top: .5em; }
       nav ul li a {
-        color: lightgray; }
+        color: black; }
       nav ul li .current {
         color: slategray; }
 
@@ -7933,11 +7933,11 @@ main {
       width: 80%; } }
   main aside h3, main aside p {
     margin-top: 1em; }
-  main div {
+  main .empty {
     height: 10vh; }
     @media all and (min-width: 577px) {
-      main div {
-        height: 40vh; } }
+      main .empty {
+        height: 60vh; } }
   main iframe {
     position: absolute;
     bottom: -4em;
@@ -7976,7 +7976,7 @@ footer {
     justify-content: space-around; }
     @media all and (min-width: 577px) {
       footer ul {
-        width: 30%;
+        width: 35%;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -8002,5 +8002,32 @@ footer {
     footer p span {
       color: dodgerblue;
       text-decoration: underline; }
+
+/*-----------coffe style---------*/
+.coffee p span {
+  color: dodgerblue;
+  text-decoration: underline; }
+
+.coffee section div {
+  background-color: whitesmoke; }
+  .coffee section div img {
+    padding: 0; }
+  .coffee section div h2 {
+    font-size: 1.2em; }
+    @media all and (min-width: 577px) {
+      .coffee section div h2 {
+        font-size: 1.5em; } }
+  .coffee section div h5 {
+    font-size: 1.2em; }
+
+/*--------------story section---------*/
+.story {
+  color: white;
+  background-color: #2B404F; }
+  .story div {
+    padding: 1% 15%; }
+    .story div h1 {
+      font-size: 2.5em;
+      margin-bottom: 2em; }
 
 /*# sourceMappingURL=index.css.map */

@@ -127,6 +127,9 @@ main {
         @media all and (min-width: 577px) {
             height: 60vh;
         }
+        @media all and (min-width: 1440px) {
+            height: 65vh;
+        }
     }
     iframe {
         position: absolute;

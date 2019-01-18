@@ -7938,6 +7938,9 @@ main {
     @media all and (min-width: 577px) {
       main .empty {
         height: 60vh; } }
+    @media all and (min-width: 1440px) {
+      main .empty {
+        height: 65vh; } }
   main iframe {
     position: absolute;
     bottom: -4em;
